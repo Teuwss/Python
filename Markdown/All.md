@@ -54,3 +54,44 @@ Além de textos, o Python também trabalha com números.
 ## Aula 3.2 - Tipo bool ( Boolean )
 
 O tipo `bool` representa os **valores lógicos**: `True` ( verdadeiro ) e `False` ( falso ).
+
+---
+
+## Aula 4 - Variáveis
+
+**Variáveis**, são usadas para armazenar valores que podemos usar depois no código. Também conhecemos a **f-string**, uma forma prática de montar frases com variáveis dentro do `print()`.
+
+### 🧠 O que é uma variável?
+
+Uma variável é como uma "caixa" com um nome, onde você guarda um valor. Esse valor pode ser alterado ou utilizado em outras partes do programa.
+
+### 💬 f-string ( formatação de string )
+
+A f-string permite inserir valores de variáveis dentro de uma string com muita facilidade. Basta colocar um `f` antes das aspas e usar `{}` para incluir a variável.
+
+---
+
+## Aula 5 - Introdução aos operadores aritméticos (matemática)
+
+Nessa aula, aprendemos os principais **operadores aritméticos** do Python. Eles são usados para realizar **cálculos matemáticos**.
+
+### ➕ Adição (`+`)
+Soma dois valores.
+
+### ➖ Subtração (-)
+Subtrai um valor do outro.
+
+### ✖️ Multiplicação (*)
+Multiplica dois valores.
+
+### ➗ Divisão (/)
+Divide um valor pelo outro. Sempre retorna float.
+
+### 🔢 Divisão inteira (//)
+Divide e retorna somente a parte inteira do resultado.
+
+### ✨ Exponenciação (**)
+Potência — eleva um número a outro.
+
+### 🔁 Módulo (%)
+Resto da divisão.
