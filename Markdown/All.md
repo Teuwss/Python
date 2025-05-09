@@ -61,11 +61,11 @@ O tipo `bool` representa os **valores lógicos**: `True` ( verdadeiro ) e `False
 
 **Variáveis**, são usadas para armazenar valores que podemos usar depois no código. Também conhecemos a **f-string**, uma forma prática de montar frases com variáveis dentro do `print()`.
 
-### 🧠 O que é uma variável?
+### O que é uma variável?
 
 Uma variável é como uma "caixa" com um nome, onde você guarda um valor. Esse valor pode ser alterado ou utilizado em outras partes do programa.
 
-### 💬 f-string ( formatação de string )
+### f-string ( formatação de string )
 
 A f-string permite inserir valores de variáveis dentro de uma string com muita facilidade. Basta colocar um `f` antes das aspas e usar `{}` para incluir a variável.
 
@@ -75,23 +75,55 @@ A f-string permite inserir valores de variáveis dentro de uma string com muita 
 
 Nessa aula, aprendemos os principais **operadores aritméticos** do Python. Eles são usados para realizar **cálculos matemáticos**.
 
-### ➕ Adição (`+`)
+### Adição (`+`)
 Soma dois valores.
 
-### ➖ Subtração (-)
+### Subtração (`-`)
 Subtrai um valor do outro.
 
-### ✖️ Multiplicação (*)
+### Multiplicação (`*`)
 Multiplica dois valores.
 
-### ➗ Divisão (/)
+### Divisão (`/`)
 Divide um valor pelo outro. Sempre retorna float.
 
-### 🔢 Divisão inteira (//)
+### Divisão inteira (`//`)
 Divide e retorna somente a parte inteira do resultado.
 
-### ✨ Exponenciação (**)
+### Exponenciação (`**`)
 Potência — eleva um número a outro.
 
-### 🔁 Módulo (%)
+### Módulo (`%`)
 Resto da divisão.
+
+## Aula 5.1 - Precedência entre os operadores aritméticos
+
+Nessa aula, aprendemos sobre a **ordem de precedência** entre os operadores aritméticos em Python. Assim como na matemática, algumas operações são feitas antes de outras, a não ser que a gente use parênteses para alterar essa ordem.
+
+### Ordem de precedência dos operadores em Python:
+
+1. **Parênteses** `()`
+2. **Exponenciação** `**`
+3. **Multiplicação**, **Divisão**, **Divisão inteira**, **Módulo** `* / // %`
+4. **Adição** e **Subtração** `+ -`
+
+---
+
+## Aula 6 - Usando a função input()
+
+Nesta aula, usamos a função `input()` para **receber dados do usuário** durante a execução do programa.
+
+### O que é a função `input()`?
+
+A função `input()` **espera que o usuário digite algo** no terminal e aperte Enter. O valor digitado é **sempre retornado como uma string ( `str` )**, mesmo que o usuário digite um número.
+
+### Convertendo o input para números
+
+Como tudo que vem do `input()` é uma string, precisamos converter quando queremos fazer operações matemáticas. Para isso usamos:
+
+- `int()` → para converter para inteiro.
+- `float()` → para converter para número com casas decimais.
+
+---
+
+## Aula 7 - Introdução as Condicionais
