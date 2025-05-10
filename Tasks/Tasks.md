@@ -87,7 +87,7 @@
 **Link:** [Beecrowd 1006](https://www.beecrowd.com.br/judge/pt/problems/view/1006)
 
 **🧠 Enunciado (resumo):**
-> Leia três notas (A, B e C), calcule a média ponderada com pesos 2, 3 e 5, e imprima no formato `"MEDIA = resultado"` com 1 casa decimal.
+> Leia três notas ( A, B e C ), calcule a média ponderada com pesos 2, 3 e 5, e imprima no formato `"MEDIA = resultado"` com 1 casa decimal.
 
 **📤 Saída Esperada:** Livre.
 
@@ -126,6 +126,6 @@
 **Link:** [Beecrowd 1010](https://www.beecrowd.com.br/judge/pt/problems/view/1010)
 
 **🧠 Enunciado (resumo):**
-> Leia os dados de duas peças (código, quantidade e valor unitário). Calcule o valor total a ser pago pelas duas e exiba com 2 casas decimais.
+> Leia os dados de duas peças ( código, quantidade e valor unitário ). Calcule o valor total a ser pago pelas duas e exiba com 2 casas decimais.
 
 **📤 Saída Esperada:** Livre.

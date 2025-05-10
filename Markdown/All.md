@@ -73,7 +73,7 @@ A f-string permite inserir valores de variáveis dentro de uma string com muita 
 
 ## Aula 5 - Introdução aos operadores aritméticos (matemática)
 
-Nessa aula, aprendemos os principais **operadores aritméticos** do Python. Eles são usados para realizar **cálculos matemáticos**.
+Nessa aula, falamos os principais **operadores aritméticos** do Python. Eles são usados para realizar **cálculos matemáticos**.
 
 ### Adição (`+`)
 Soma dois valores.
@@ -98,7 +98,7 @@ Resto da divisão.
 
 ## Aula 5.1 - Precedência entre os operadores aritméticos
 
-Nessa aula, aprendemos sobre a **ordem de precedência** entre os operadores aritméticos em Python. Assim como na matemática, algumas operações são feitas antes de outras, a não ser que a gente use parênteses para alterar essa ordem.
+Nessa aula, falamos sobre a **ordem de precedência** entre os operadores aritméticos em Python. Assim como na matemática, algumas operações são feitas antes de outras, a não ser que a gente use parênteses para alterar essa ordem.
 
 ### Ordem de precedência dos operadores em Python:
 
@@ -127,3 +127,44 @@ Como tudo que vem do `input()` é uma string, precisamos converter quando querem
 ---
 
 ## Aula 7 - Introdução as Condicionais
+
+Nesta aula falamos sobre estruturas condicionais no Python: `if`, `elif` e `else`.
+
+- `if` é usado para **verificar uma condição**.
+- `elif` (else if) serve como uma **segunda ou mais alternativas**.
+- `else` é o **caminho final**, caso nenhuma das condições anteriores seja verdadeira.
+
+---
+
+## Aula 8 - Operadores relacionais
+
+Nesta aula usamos os **operadores relacionais**, que são usados para **comparar valores**. Eles retornam um valor do tipo **booleano** ( `True` ou `False` ), e são muito usados em condicionais.
+
+| Operador | Significado    | Exemplo  | Resultado |
+| -------- | -------------- | -------- | --------- |
+| `>`      | Maior que      | `2 > 1`  | `True`    |
+| `<`      | Menor que      | `1 < 2`  | `True`    |
+| `>=`     | Maior ou igual | `2 >= 1` | `True`    |
+| `<=`     | Menor ou igual | `1 <= 2` | `True`    |
+| `==`     | Igual a        | `2 == 2` | `True`    |
+| `!=`     | Diferente de   | `1 != 2` | `True`    |
+
+---
+
+## Aula 9 - Operadores Lógicos ( And, Or, Not e In )
+
+Nesta aula usamos os **operadores lógicos**, que são usados para combinar expressões booleanas e retornar `True` ou `False`.
+
+## Aula 9.1 - Operador Lógico `And`
+
+O operador `and` só retorna `True` **se todas as condições forem verdadeiras**. Se uma das condições for falsa, o resultado já será `False`.
+
+## Aula 9.2 - Operador Lógico `Or`
+
+O operador `or` retorna `True` **se pelo menos uma das condições for verdadeira**. Ele só retorna `False` se todas as condições forem falsas.
+
+## Aula 9.3 - Operador Lógico `Not`
+
+O operador `not` **inverte** o valor lógico de uma condição. Se a condição for `True`, ele transforma em `False`, e se for False, ele transforma em `True`.
+
+## Aula 9.4 - Operador Lógico `In`
