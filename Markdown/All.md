@@ -168,3 +168,9 @@ O operador `or` retorna `True` **se pelo menos uma das condições for verdadeir
 O operador `not` **inverte** o valor lógico de uma condição. Se a condição for `True`, ele transforma em `False`, e se for False, ele transforma em `True`.
 
 ## Aula 9.4 - Operador Lógico `In`
+
+O operador `in` é usado para verificar se **um valor está contido dentro de uma sequência**.
+
+### Aula 9.4.1 - `In` e `Not in`
+
+O operador `not in` faz o oposto **verifica se um valor não está contido dentro da sequência**.
