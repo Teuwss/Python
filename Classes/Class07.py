@@ -1,14 +1,21 @@
-# Pergunta ao usuário se ele quer entrar ou sair
-verificar = input("Você quer 'Entrar' ou 'Sair'? ")
+a = int(input(""))
+b = int(input(""))
+c = int(input(""))
 
-# Verifica se o usuário digitou 'Entrar'
-if verificar == "Entrar":
-    print("Você entrou.")
-    
-# Se não, verifica se ele digitou 'Sair'
-elif verificar == "Sair":
-    print("Você saiu.")
+if a > b and a > c:
+    if b > c:
+        print(f"{a}, {b}, {c}")
+    else:
+        print(f"{a}, {c}, {b}")
 
-# Se não digitou nem 'Entrar' nem 'Sair'
+elif b > a and b > c:
+    if a > c:
+        print(f"{b}, {a}, {c}")
+    else:
+        print(f"{b}, {c}, {a}")
+
 else:
-    print("Você não digitou nem 'Entrar' e nem 'Sair'.")
+    if a > b:
+        print(f"{c}, {a}, {b}")
+    else:
+        print(f"{c}, {b}, {a}")

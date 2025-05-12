@@ -348,4 +348,3 @@ Verifique se:
 
 
 **📤 Saída Esperada:** Livre.
-

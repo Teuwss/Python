@@ -174,3 +174,23 @@ O operador `in` é usado para verificar se **um valor está contido dentro de um
 ### Aula 9.4.1 - `In` e `Not in`
 
 O operador `not in` faz o oposto **verifica se um valor não está contido dentro da sequência**.
+
+---
+
+## Aula 10 - Fatiamento de Strings e a Função `len()`
+
+O fatiamento permite pegar partes de uma string utilizando a notação `[início:fim:passo]`.
+
+- `"Python"[0:3]` → `'Pyt'` ( pega do índice 0 até o 2 )
+- `"Python"[::2]` → `'Pto'` ( pula de 2 em 2 )
+- `"Python"[::-1]` → `'nohtyP'` ( string invertida )
+
+## Aula 10.1 - Função `len()`
+
+A função `len()` retorna o número de caracteres de uma string. Ela é útil para saber onde um fatiamento pode terminar ou para validar o tamanho de um texto.
+
+--- 
+
+## Aula 11 - Introdução ao `try` e `except`
+
+Nesta aula aprendemos como lidar com erros que podem ocorrer durante a execução do programa, utilizando os blocos try e except. O bloco `try` serve para **testar** um trecho de código que **pode causar erro**. Se acontecer algum erro, o programa **não trava**, ele pula para o bloco `except` e executa o que estiver lá.
