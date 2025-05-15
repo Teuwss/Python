@@ -194,3 +194,20 @@ A função `len()` retorna o número de caracteres de uma string. Ela é útil p
 ## Aula 11 - Introdução ao `try` e `except`
 
 Nesta aula aprendemos como lidar com erros que podem ocorrer durante a execução do programa, utilizando os blocos try e except. O bloco `try` serve para **testar** um trecho de código que **pode causar erro**. Se acontecer algum erro, o programa **não trava**, ele pula para o bloco `except` e executa o que estiver lá.
+
+--- 
+
+## Aula 12 - Flags, `is`, `is not` e `None`
+
+Nesta aula aprendemos sobre **controle de estado** usando *flags*, e também sobre os operadores de identidade `is`, `is not` e o valor especial `None`, muito usado para representar ausência de valor.
+
+## Aula 12.1 - Flag
+
+Uma *flag* é uma variável que usamos para **controlar o fluxo** do programa, geralmente começando como `False` ou `None`, e sendo alterada durante a execução.
+
+## Aula 12.2 - `Is` e `Is not`
+
+São operadores de **identidade**, usados para saber se duas variáveis apontam para o **mesmo objeto na memória**.
+
+- `a is b` → retorna `True` se `a` e `b` são o mesmo objeto.
+- `a is not b` → retorna `True` se `a` e `b` são objetos diferentes.

@@ -348,3 +348,81 @@ Verifique se:
 
 
 **📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1038 – Lanche
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1038](https://www.beecrowd.com.br/judge/pt/problems/view/1038)
+
+**🧠 Enunciado (resumo):**
+
+> Dado um código de item e uma quantidade, use a tabela abaixo para calcular o valor total da compra:
+
+```
+1 - Cachorro Quente - R$ 4.00  
+2 - X-Salada        - R$ 4.50  
+3 - X-Bacon         - R$ 5.00  
+4 - Torrada Simples - R$ 2.00  
+5 - Refrigerante    - R$ 1.50
+```
+
+> A saída deve ser no formato: `Total: R$ X.YZ`
+
+**📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1040 – Média do Aluno
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1040](https://www.beecrowd.com.br/judge/pt/problems/view/1040)
+
+**🧠 Enunciado (resumo):**
+
+> Leia 4 notas com pesos:
+
+* N1 \* 2
+* N2 \* 3
+* N3 \* 4
+* N4 \* 1
+
+> Calcule a média: `(N1*2 + N2*3 + N3*4 + N4*1) / 10`
+
+* Média ≥ 7.0 → Aluno aprovado
+* Média < 5.0 → Aluno reprovado
+* Média entre 5.0 e 6.9 → Aluno em exame
+
+> Se em exame, leia a nota do exame e calcule nova média:
+
+* Média final ≥ 5.0 → Aluno aprovado
+* Caso contrário → Aluno reprovado
+
+**📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1041 – Coordenadas de um Ponto
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1041](https://www.beecrowd.com.br/judge/pt/problems/view/1041)
+
+**🧠 Enunciado (resumo):**
+
+> Leia dois valores float: `x` e `y`. Determine a posição do ponto no plano cartesiano:
+
+* Se `x = 0` e `y = 0` → Origem
+* Se `x = 0` → Eixo Y
+* Se `y = 0` → Eixo X
+* Se `x > 0` e `y > 0` → Q1
+* Se `x < 0` e `y > 0` → Q2
+* Se `x < 0` e `y < 0` → Q3
+* Se `x > 0` e `y < 0` → Q4
+
+**📤 Saída Esperada:** Livre.
+
+---
