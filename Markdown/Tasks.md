@@ -426,3 +426,78 @@ Verifique se:
 **📤 Saída Esperada:** Livre.
 
 ---
+
+### 🧾 1042 – Sort Simples
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1042](https://www.beecrowd.com.br/judge/pt/problems/view/1042)
+
+**🧠 Enunciado (resumo):**
+
+> Leia 3 inteiros. Mostre-os primeiro em ordem crescente, depois uma linha em branco e, em seguida, a ordem original.
+
+**📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1043 – Triângulo
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1043](https://www.beecrowd.com.br/judge/pt/problems/view/1043)
+
+**🧠 Enunciado (resumo):**
+
+> Leia 3 valores float (A, B, C). Verifique se formam um triângulo:
+
+* Se `A < B + C` e `B < A + C` e `C < A + B` → Triângulo
+
+  * Mostre: `Perimetro = X.X`
+* Caso contrário → Calcule área do trapézio:
+
+  * Fórmula: `((A + B) * C) / 2`
+  * Mostre: `Area = X.X`
+
+**📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1044 – Múltiplos
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1044](https://www.beecrowd.com.br/judge/pt/problems/view/1044)
+
+**🧠 Enunciado (resumo):**
+
+> Leia dois inteiros A e B. Verifique se um é múltiplo do outro.
+
+* Se sim → `Sao Multiplos`
+* Caso contrário → `Nao sao Multiplos`
+
+**📤 Saída Esperada:** Livre.
+
+---
+
+### 🧾 1045 – Tipos de Triângulos
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1045](https://www.beecrowd.com.br/judge/pt/problems/view/1045)
+
+**🧠 Enunciado (resumo):**
+
+> Leia 3 valores float (A, B, C). Ordene de forma que `A >= B >= C`.
+> Avalie os seguintes casos:
+
+* Se `A ≥ B + C` → `NAO FORMA TRIANGULO`
+* Se `A² = B² + C²` → `TRIANGULO RETANGULO`
+* Se `A² > B² + C²` → `TRIANGULO OBTUSANGULO`
+* Se `A² < B² + C²` → `TRIANGULO ACUTANGULO`
+* Se `A = B = C` → `TRIANGULO EQUILATERO`
+* Se dois lados iguais → `TRIANGULO ISOSCELES`
+
+**📤 Saída Esperada:** Livre.
+
+---
