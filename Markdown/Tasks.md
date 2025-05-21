@@ -501,3 +501,117 @@ Verifique se:
 **📤 Saída Esperada:** Livre.
 
 ---
+
+### 🧾 1046 – Tempo de Jogo
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1046](https://www.beecrowd.com.br/judge/pt/problems/view/1046)
+
+**🧠 Enunciado (resumo):**
+
+> Leia a hora inicial e a hora final de um jogo. O jogo pode terminar no dia seguinte.
+> A duração mínima é de 1 hora e a máxima de 24 horas.
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1047 – Tempo de Jogo com Minutos
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1047](https://www.beecrowd.com.br/judge/pt/problems/view/1047)
+
+**🧠 Enunciado (resumo):**
+
+> Leia hora e minuto de início e de fim de um jogo. Calcule a duração em horas e minutos.
+> O jogo tem duração mínima de 1 minuto e máxima de 24 horas.
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1048 – Aumento de Salário
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1048](https://www.beecrowd.com.br/judge/pt/problems/view/1048)
+
+**🧠 Enunciado (resumo):**
+
+> Leia o salário e calcule o reajuste de acordo com a faixa salarial:
+>
+> * até 400.00 → 15%
+> * até 800.00 → 12%
+> * até 1200.00 → 10%
+> * até 2000.00 → 7%
+> * acima de 2000.00 → 4%
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1049 – Animal
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1049](https://www.beecrowd.com.br/judge/pt/problems/view/1049)
+
+**🧠 Enunciado (resumo):**
+
+> Leia três palavras e descubra o animal com base nas características fornecidas.
+> A árvore de decisão tem 3 níveis (ex: vertebrado → ave → carnívoro → águia).
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1050 – DDD
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1050](https://www.beecrowd.com.br/judge/pt/problems/view/1050)
+
+**🧠 Enunciado (resumo):**
+
+> Leia um número inteiro representando um DDD. Mostre o nome da cidade correspondente.
+> Se não estiver na lista, exiba: `"DDD nao cadastrado"`.
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1051 – Imposto de Renda
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1051](https://www.beecrowd.com.br/judge/pt/problems/view/1051)
+
+**🧠 Enunciado (resumo):**
+
+> Calcule o imposto de renda com base no salário:
+>
+> * até R\$ 2000.00 → isento
+> * R\$ 2000.01 até R\$ 3000.00 → 8%
+> * R\$ 3000.01 até R\$ 4500.00 → 18%
+> * acima de R\$ 4500.00 → 28%
+>   O imposto é cobrado apenas sobre o que ultrapassa cada faixa.
+
+**📤 Saída Esperada:** Livre
+
+---
+
+### 🧾 1052 – Mês
+
+**Nível:** Iniciante
+**Categoria:** Condicional
+**Link:** [Beecrowd 1052](https://www.beecrowd.com.br/judge/pt/problems/view/1052)
+
+**🧠 Enunciado (resumo):**
+
+> Leia um número de 1 a 12 e imprima o nome do mês correspondente em inglês.
+
+**📤 Saída Esperada:** Livre
+
+---
